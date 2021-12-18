@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View , ScrollView, Image} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-// import SearchBar from './SearchBar'
+import SearchBar from './SearchBar'
 
 
 
@@ -37,10 +37,10 @@ export default class App extends React.Component {
         <Text style={styles.bopNav_Second_text}>À emporter</Text>
     </View>
 
-    {/*<View style={{ backgroundColor : 'white', borderColor : 'white' , border : 'none' }}>*/}
-    {/*    <SearchBar />*/}
-    {/*</View>*/}
-    {/*<SearchBar />*/}
+    <View style={{ backgroundColor : 'white', borderColor : 'white' , border : 'none' }}>
+        <SearchBar />
+    </View>
+    <SearchBar />
 
 
     <View style={{ paddingTop: 10 }}>
